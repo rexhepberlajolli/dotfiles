@@ -1,0 +1,37 @@
+! special
+*.polybarbackground:     #e61a1a1a
+*.foreground:           #ecf0f1
+*.background:           #1a1a1a
+*.cursorColor:          #dfdfdf
+
+! black
+*.color0:               #1a1a1a
+*.color8:               #7a7777
+
+! red
+*.color1:               #e74c3c
+*.color9:               #e74c3c
+
+! green
+*.color2:               #2ecc71
+*.color10:              #2ecc71
+
+! yellow
+*.color3:               #f1c40f
+*.color11:              #f1c40f
+
+! blue
+*.color4:               #3498db
+*.color12:              #3498db
+
+! magenta
+*.color5:               #9b59b6
+*.color13:              #9b59b6
+
+! cyan
+*.color6:               #1abc9c
+*.color14:              #1abc9c
+
+! white
+*.color7:               #ffffff
+*.color15:              #ffffff

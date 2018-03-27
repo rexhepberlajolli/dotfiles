@@ -1,0 +1,36 @@
+! ------------------------------------------------------------------------------
+!                      ROFI Settings
+! ------------------------------------------------------------------------------
+
+! General
+rofi.font:                SF Pro Display Medium 15
+rofi.hide-scrollbar:      true
+rofi.terminal:			  urxvt
+
+
+! Layout
+rofi.color-enabled:      true
+rofi.separator-style:    none
+rofi.line-padding:       6
+rofi.width:              25
+rofi.location:           0
+rofi.lines:              5
+rofi.padding:            20
+rofi.sidebar-mode:       false
+rofi.fullscreen:         false
+
+! ------------------------------------------------------------------------------
+!                      ROFI Color theme
+! ------------------------------------------------------------------------------
+
+!				   'background', 'border',	 'separator'
+rofi.color-window: #1a1a1a,      #ecf0f1,	  #f81118
+
+
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal: #1a1a1a,  #f1f1f1,  #1a1a1a,  #3498db,  #f1f1f1
+rofi.color-urgent: #f81118,  #f1f1f1,  #1a1a1a,  #3498db,  #f1f1f1
+rofi.color-active: #57c7ff,  #f1f1f1,  #57c7ff,  #3498db,  #f1f1f1
+
+rofi.ssh-client: ssh
+rofi.ssh-command: {terminal} -e $SHELL -c "{ssh-client} {host}"
